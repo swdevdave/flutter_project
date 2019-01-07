@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 class Products extends StatelessWidget {
   final List<String> products;
 
-  Products(this.products);
+  Products([this.products = const []]) {
+    print('[Products Widget] Constructor');
+  }
 
   Widget build(BuildContext context) {
-    // TODO: implement build
+    print('[Products Widget] build()');
     return Column(
       children: products
           .map((element) => Card(
