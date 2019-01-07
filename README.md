@@ -4,4 +4,4 @@ A new Flutter application.
 
 ## Getting Started
 
-Playing with Base flutter app. To learn SDK and Dart better
+Playing with base flutter app to learn SDK and Dart better
